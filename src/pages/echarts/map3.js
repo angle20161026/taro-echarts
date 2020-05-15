@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Button } from '@tarojs/components'
 import Chart from 'taro-echarts'
-import geoJson from '../../../node_modules/echarts/map/json/world.json'
+import geoJson from 'echarts/map/json/world.json'
 
 
 var geoCoordMap = {
